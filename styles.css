@@ -1,0 +1,12 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+label, input, textarea {
+    margin-bottom: 10px;
+}

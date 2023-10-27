@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Compromissos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agendar Compromisso</h1>
+        <div class="form-container">
+            <label>Identificação:</label>
+            <input type="text" id="name">
+
+            <label>Data:</label>
+            <input type="date" id="date">
+
+            <label>Hora:</label>
+            <input type="time" id="time">
+
+            <label>Anotações:</label>
+            <textarea id="notes"></textarea>
+
+            <button onclick="addAppointment()">Adicionar</button>
+        </div>
+        <h2>Compromissos:</h2>
+        <ul id="appointment-list"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
